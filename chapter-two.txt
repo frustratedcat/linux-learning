@@ -1,0 +1,22 @@
+Chapter Two
+
+Overview: Learned that the file system is like a tree and starts at the root, which is at the top of the tree (think upside down tree basically). Given a directory, the directory above that, i.e. closest to root, is the parent directory, and each parent directory is made up of child directories. The directory you are currently in is what is called the current working directory. To find what your current working directory is, run the 'pwd' command. There are aboslute and relative pathnames, with absolute pathnames beginning at root and you name each directory alone the path: ~$ cd /usr/bin, and relative pathnames such as bin]$ cd .. to move to the 'usr' (parent) directory.
+
+Commands Learned:
+
+    pwd - shows your current working directory.
+	- $ pwd
+	/home/jared
+
+    ls - lists the files and directories of your current working directory.
+	- $ ls
+	bookshelf         git-basics.txt         Public     Warpinator
+	bookshelf-backup  html-boilerplate       repos      webdev-learning
+	Desktop           Music                  Sync       Writing
+	Documents         odin-links-and-images  Templates
+	Downloads         Pictures               Videos
+
+    cd - allows you to move to different directories.
+	- $ cd repos
+	user:~repos$ 
+
